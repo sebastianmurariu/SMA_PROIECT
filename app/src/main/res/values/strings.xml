@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MemoriesApp</string>
+    <string name="title_text">Your Memories</string>
+    <string name="greateful_text">Save youre memories</string>
+    <string name="get_started_text">Get Started</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_text">Login</string>
+    <string name="or_text">Or</string>
+    <string name="create_text">Create Account</string>
+    <string name="username_hint">Username</string>
+    <string name="post_title" >Where/When</string>
+    <string name="thoughts">With how</string>
+    <string name="save_button">Save</string>
+    <string name="post_button_text">Save</string>
+    <string name="menu_title">Add Post</string>
+    <string name="signout">Signout</string>
+    <string name="no_thoughts_hint">Click "+" to create a new Memorie</string>
+</resources>

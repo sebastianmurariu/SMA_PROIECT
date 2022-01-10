@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "393764361166",
+    "firebase_url": "https://sma2021-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "sma2021",
+    "storage_bucket": "sma2021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393764361166:android:a500c4da7301ad5054919f",
+        "android_client_info": {
+          "package_name": "com.exemple.memoriesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393764361166-4gk9suggo5mn3em71pmpltk9lbboba6p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsTqVynLD8FTyYEchDCCbBNBuaFdK_6oM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393764361166-4gk9suggo5mn3em71pmpltk9lbboba6p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
