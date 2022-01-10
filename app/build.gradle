@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'com.google.gms.google-services'
+    //id 'com.google.gms.google-services'
 }
 
 android {
@@ -8,7 +9,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.example.journalapp"
+        applicationId "com.example.memoriesapp"
         minSdkVersion 24
         targetSdkVersion 30
         versionCode 1
@@ -39,7 +40,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-storage:20.0.0'
     implementation 'com.google.firebase:firebase-firestore:24.0.0'
     implementation 'com.squareup.picasso:picasso:2.71828'
-    implementation 'com.google.firebase:firebase-database:19.2.1'
+    implementation 'com.google.firebase:firebase-database:20.0.3'
     implementation platform('com.google.firebase:firebase-bom:29.0.3')
 
     // When using the BoM, you don't specify versions in Firebase library dependencies
@@ -50,6 +51,4 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 }
-apply plugin: 'com.google.gms.google-services'  // Google Services plugin
 apply plugin: 'com.android.application'
-apply plugin: 'com.google.gms.google-services'

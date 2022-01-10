@@ -85,7 +85,7 @@ public class PostMemoriesActivity extends AppCompatActivity implements View.OnCl
             currentUserId = MemorieApi.getInstance().getUserId();
             currentUserName = MemorieApi.getInstance().getUsername();
 
-            currentUserTextView.setText(currentUserName);
+            //currentUserTextView.setText(currentUserName);
         }
 
         authStateListener = new FirebaseAuth.AuthStateListener() {

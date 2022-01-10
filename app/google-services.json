@@ -8,6 +8,64 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:393764361166:android:7a0909ecd4566b4d54919f",
+        "android_client_info": {
+          "package_name": "com.example.journalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393764361166-4gk9suggo5mn3em71pmpltk9lbboba6p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsTqVynLD8FTyYEchDCCbBNBuaFdK_6oM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393764361166-4gk9suggo5mn3em71pmpltk9lbboba6p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393764361166:android:1ef8b7cf5c3024b454919f",
+        "android_client_info": {
+          "package_name": "com.example.memoriesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393764361166-4gk9suggo5mn3em71pmpltk9lbboba6p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsTqVynLD8FTyYEchDCCbBNBuaFdK_6oM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393764361166-4gk9suggo5mn3em71pmpltk9lbboba6p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:393764361166:android:a500c4da7301ad5054919f",
         "android_client_info": {
           "package_name": "com.exemple.memoriesapp"
