@@ -48,7 +48,7 @@ public class MemoriesListActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_journal_list);
+        setContentView(R.layout.activity_memorie_list);
 
         firebaseAuth = firebaseAuth.getInstance();
         user = firebaseAuth.getCurrentUser();

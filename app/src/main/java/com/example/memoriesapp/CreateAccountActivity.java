@@ -107,15 +107,12 @@ public class CreateAccountActivity extends AppCompatActivity {
             firebaseAuth.createUserWithEmailAndPassword(email, password)
                     .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                         @Override
-                        //Task will have our user that we want to create
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if(task.isSuccessful()){
-                                //We take user to AddJournalActivity
                                 currentUser = firebaseAuth.getCurrentUser();
                                 assert  currentUser != null;
                                 String currentUserId = currentUser.getUid();
 
-                                //Create a User Map so we can create a user in the User collection
                                 Map<String, String> userObj = new HashMap<>();
                                 userObj.put("userId", currentUserId);
                                 userObj.put("username", username);
@@ -137,11 +134,11 @@ public class CreateAccountActivity extends AppCompatActivity {
                                                                     MemorieApi memorieApi = MemorieApi.getInstance(); //Global API
                                                                     memorieApi.setUserId(currentUserId);
                                                                     memorieApi.setUsername(username);
-
                                                                     Intent intent = new Intent(CreateAccountActivity.this,
                                                                             MemoriesListActivity.class);
                                                                     intent.putExtra("username", username);
                                                                     intent.putExtra("userId", currentUserId);
+
                                                                     startActivity(intent);
                                                                 }
                                                                 else{

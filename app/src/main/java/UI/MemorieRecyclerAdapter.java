@@ -33,7 +33,7 @@ public class MemorieRecyclerAdapter extends RecyclerView.Adapter<MemorieRecycler
     @Override
     public MemorieRecyclerAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
        View view = LayoutInflater.from(context)
-               .inflate(R.layout.journal_row, parent, false);
+               .inflate(R.layout.memorie_row, parent, false);
 
        return new ViewHolder(view, context);
     }
@@ -91,14 +91,6 @@ public class MemorieRecyclerAdapter extends RecyclerView.Adapter<MemorieRecycler
             dateAdded = (TextView) itemView.findViewById(R.id.journal_timestamp_list);
             name = (TextView) itemView.findViewById(R.id.journal_row_username);
             image = (ImageView) itemView.findViewById(R.id.journal_image_list);
-
-
-            shareButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-
-                }
-            });
         }
     }
 }

@@ -41,7 +41,6 @@
         android:layout_width="wrap_content"
         android:layout_height="27dp"
         android:layout_marginTop="32dp"
-        android:text="Nikumi"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.196"
@@ -53,10 +52,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Today"
+        android:text="Choose the memory"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.182"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/post_username_textview" />
 
@@ -75,14 +73,14 @@
 
     <EditText
         android:id="@+id/post_title_et"
-        android:layout_width="367dp"
-        android:layout_height="42dp"
-        android:layout_marginTop="32dp"
-        android:padding="5dp"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/input_outline"
         android:ems="10"
         android:hint="@string/post_title"
         android:inputType="textPersonName"
-        android:background="@drawable/input_outline"
+        android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/post_imageView" />
@@ -92,7 +90,6 @@
         style="?android:attr/progressBarStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="72dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -100,8 +97,8 @@
 
     <Button
         android:id="@+id/post_save_journal_button"
-        android:layout_width="369dp"
-        android:layout_height="43dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="@android:color/transparent"
         android:text="@string/post_button_text"
         android:textColor="@color/common_google_signin_btn_text_light"
